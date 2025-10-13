@@ -4,34 +4,13 @@
 
 # VS files
 .vs/
+*/.vs/
 *.user
 *.suo
 
 # Build artifacts 
-bin/
-obj/
+**/bin/
+**/obj/
+*.user
 
 
-/.vs/CEIS400Project/v17
-/CEIS400Project/.vs/CEIS400Project/FileContentIndex/1160aa26-8c68-4832-833a-7f4875bc5d8f.vsidx
-/CEIS400Project/.vs/CEIS400Project/FileContentIndex/21ff7bf9-8521-4606-96f6-6a78ba864648.vsidx
-/CEIS400Project/.vs/CEIS400Project/FileContentIndex/55874006-fd7c-4d0f-95ba-100f21b7ed29.vsidx
-/CEIS400Project/.vs/CEIS400Project/FileContentIndex/6969461e-b2e5-4643-ba36-68d8373e7d46.vsidx
-/CEIS400Project/.vs/CEIS400Project/FileContentIndex/8679992a-4524-49e6-ae1e-32ec2aac64cb.vsidx
-/CEIS400Project/.vs/CEIS400Project/FileContentIndex/a92c246f-9621-4b8b-b684-f0bee854d0b7.vsidx
-/CEIS400Project/.vs/CEIS400Project/FileContentIndex/b42f9943-831f-4884-a58e-d35379979fc7.vsidx
-/CEIS400Project/.vs/CEIS400Project/FileContentIndex/ba99b53b-d089-4af9-a9e6-b7523ec9acdd.vsidx
-/CEIS400Project/.vs/CEIS400Project/FileContentIndex/dd8cbe8e-9c33-415d-b503-3f38c98180eb.vsidx
-/CEIS400Project/.vs/CEIS400Project/FileContentIndex/f16647bb-73c1-40f8-9ac1-103fe7507d91.vsidx
-/CEIS400Project/.vs/CEIS400Project/v17/.suo
-/CEIS400Project/.vs/ProjectEvaluation/ceis400project.metadata.v9.bin
-/CEIS400Project/.vs/ProjectEvaluation/ceis400project.projects.v9.bin
-/CEIS400Project/.vs/ProjectEvaluation/ceis400project.strings.v9.bin
-/CEIS400Project/ECS/obj/Debug/net8.0/ECS.AssemblyInfo.cs
-/CEIS400Project/ECS/obj/Debug/net8.0/ECS.AssemblyInfoInputs.cache
-/CEIS400Project/ECS/obj/Debug/net8.0/ECS.assets.cache
-/CEIS400Project/ECS/obj/Debug/net8.0/ECS.GeneratedMSBuildEditorConfig.editorconfig
-/CEIS400Project/ECS/obj/ECS.csproj.nuget.dgspec.json
-/CEIS400Project/ECS/obj/ECS.csproj.nuget.g.props
-/CEIS400Project/ECS/obj/project.assets.json
-/CEIS400Project/ECS/obj/project.nuget.cache
