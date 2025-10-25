@@ -46,6 +46,17 @@ namespace ECS
             foreach (var msg in reportService.GetAvailableItems())
                 Console.WriteLine(" - " + msg);
 
+            //3.2 - check for Double Checkout Prevention
+            Console.WriteLine("\nAttempt Checkout of Unavailable Item");
+            foreach (var msg in reportService.GetCheckedOutItems())
+                Console.WriteLine(" - " + msg);
+            Console.WriteLine("Bob Tries to Checkout Laptop");
+            // checkoutService.Checkout(2, 100); //Old test - no exception handeled. 
+
+            try { checkoutService.Checkout(2, 100); }
+            catch (InvalidOperationException booked) 
+                { Console.WriteLine($" - Warning!!: {booked.Message}"); }
+
             // 4. Return the Laptop
             Console.WriteLine("\nAlice returns the Laptop...");
             checkoutService.Return(100);
